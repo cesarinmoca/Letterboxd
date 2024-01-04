@@ -1,12 +1,13 @@
-.box1{
+.div{
     background-color: pink;
-    /* BOX MODEL */
     width: 100px;
     height: 100px;
+    display: inline;
 }   
 
-.box2{
+.span{
     background-color: blue;
     width: 100px;
-    height: 100px;
+    height: 100px; 
+    display: inline;
 }
