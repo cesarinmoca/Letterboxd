@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body{
     background-color: #202830;
@@ -41,6 +42,50 @@ hr{
 }
 
 .poster img{
+    width: 156px;
+    height: 259px;
+    border-radius: 10px;
+}
+
+/*Segundos Posters*/
+
+.posters-1{
+    margin: 0px 5% 0px;
+    position: relative;
+}
+
+.poster-base-1{
+    width: 156px;
+    height: 259px;
+    display: inline-block;
+}
+
+
+.poster-1{
+    width: 150px;
+    height: 225px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.profile-picture{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.persona{
+    background-color: #445566;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.poster-1 img{
     width: 156px;
     height: 259px;
     border-radius: 10px;
