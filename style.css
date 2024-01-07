@@ -83,6 +83,7 @@ hr{
     font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
     font-size: 15px;
+    color: white;
 }
 
 .poster-1 img{
@@ -90,3 +91,5 @@ hr{
     height: 259px;
     border-radius: 10px;
 }
+
+
