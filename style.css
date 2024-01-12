@@ -3,8 +3,45 @@
 
 body{
     background-color: #202830;
+    margin: 0;
 }
 
+ /*HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14181C;
+    height: 80px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul li{
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #99AABB;
+}
+
+.logo{
+    border-radius: 50px;
+}
+
+.li-1{
+    
+}
+
+/*WELCCOME*/
 .welcome{
     color: #AABBCC;
     font-size: 30px;
@@ -70,8 +107,8 @@ hr{
 }
 
 .profile-picture{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: red;
     border-radius: 20px;
     border: 1px solid white;
